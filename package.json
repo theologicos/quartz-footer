@@ -101,6 +101,11 @@
         "defaultPosition": "footer",
         "defaultPriority": 50
       }
+    },
+    "optionSchema": {
+      "links": {
+        "type": "object"
+      }
     }
   }
 }
