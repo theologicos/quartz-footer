@@ -29,9 +29,7 @@ export default ((opts?: FooterOptions) => {
     const links = opts?.links ?? [];
     return (
       <footer class={`${displayClass ?? ""}`}>
-        <p>
-          © {year} theologicos. All rights reserved.
-        </p>
+        <p>© {year} theologicos. All rights reserved.</p>
         <ul>
           {Object.entries(links).map(([text, link]) => (
             <li>
